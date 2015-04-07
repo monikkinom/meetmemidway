@@ -10,5 +10,9 @@ far away for the both you, THIS WILL HELP!
 Mark your locations on the map and select the mode of travel. Get suggested restaurants,clubs, etc. which are equally
 distant for both of you!
 
+##Demo 
+
+![alt tag](https://github.com/monikkinom/meetmemidway/blob/master/meetmemidway.png?raw=true) 
+
 ## Details
 Using the Google Places, Maps and Autocomplete API. Also using the library epoly.js for calculating route midpoint.
