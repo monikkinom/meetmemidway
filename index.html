@@ -1,0 +1,155 @@
+<html>
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title> Meet me MidWay!</title>
+  
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Patrick+Hand' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=places"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+	  <script type="text/javascript" src="jquery.geocomplete.js"></script>
+    <script type="text/javascript" src="epoly.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+
+</head>
+
+
+<body>
+
+
+
+	<div class='container'>
+
+
+    <div class="panel panel-default results-box">
+
+  
+
+    <ul class="list-group list-box">
+  <li class="list-group-item">
+    <span class="badge restaurant-count">0</span>
+    <span class="glyphicon glyphicon-cutlery"></span> Restaurants
+  </li>
+
+   <li class="list-group-item">
+    <span class="badge cafe-count">0</span>
+    <span class="glyphicon glyphicon-play-circle"></span> Cafés
+  </li>
+
+   <li class="list-group-item">
+    <span class="badge night_club-count">0</span>
+    <span class="glyphicon glyphicon-certificate"></span> Night Clubs
+  </li>
+
+   <li class="list-group-item">
+    <span class="badge park-count">0</span>
+    <span class="glyphicon glyphicon-tree-deciduous"></span> Parks
+  </li>
+
+   <li class="list-group-item">
+    <span class="badge movie_theater-count">0</span>
+    <span class="glyphicon glyphicon-film"></span> Movies
+  </li>
+   <li class="list-group-item">
+    <span class="badge shopping_mall-count">0</span>
+    <span class="glyphicon glyphicon-shopping-cart"></span> Malls
+  </li>
+   <li class="list-group-item">
+    <span class="badge bar-count">0</span>
+    <span class="glyphicon glyphicon-glass"></span> Bars
+  </li>
+</ul>
+
+ </div>
+
+
+
+
+	<div class="panel panel-default panel-box">
+  
+
+
+  <div class="panel-body">
+
+  <div class='row logo-container'> <h2 class='logo-text'>Meet Me MidWay!</h2></div>
+
+   <div class='row bottom-box'> <div class="col-lg-6">
+    <div class="input-group friend-1">
+    <span class="input-group-addon"><span class="glyphicon glyphicon-hand-right"></span></span>
+      <input id="loc-1" type="text" class="form-control tback" placeholder="First Spot">
+    </div>
+    </div>
+    </div>
+
+    <div class='row bottom-box'>
+    <div class="col-lg-6">
+    <div class="input-group friend-1">
+    <span class="input-group-addon"><span class="glyphicon glyphicon-hand-right"></span></span>
+      <input id="loc-2" type="text" class="form-control tback" placeholder="Second Spot">
+    </div>
+
+    <!-- /input-group -->
+  </div>
+  </div>
+
+   <!-- <div class="row bottom-box">
+  <div class='locate-button'>
+     <button class="btn btn-info btn-large" id='lock-options'>Lock Options</button>
+     </div>
+
+  </div> -->
+
+  <div class='row bottom-box'>
+
+  <div class="btn-group select-box">
+  <button type="button" value="WALKING" class="btn btn-default mode-select">Walking</button>
+  <button type="button" value="DRIVING" class="btn btn-default mode-select">Driving</button>
+  <button type="button" value="BICYCLING" class="btn btn-default mode-select">Bicycling</button>
+  <button type="button" value="TRANSIT" class="btn btn-default mode-select">Public Transit</button>
+
+</div>
+
+
+  </div>
+
+  <div class="row bottom-box">
+  <div class='locate-button'>
+  	 <button class="btn btn-info btn-large locate"><div class='locate-text'>Find places to Meet!</div></button>
+  	 </div>
+
+  </div>
+
+
+</div>
+  </div>
+
+<div class ='row'><div class="panel panel-default panel-credits">
+  <div class="panel-body panel-credits-inner">
+    <h4 class='credit-text'><div class='logo-text'>Meet Me MidWay!</div> by <a href='http://twitter.com/monikkinom'>@monikkinom</a></h4>
+  </div>
+</div>
+</div>
+
+</div>
+    
+
+    
+
+	</div>
+
+
+	<div id='map-canvas'></div>
+
+
+</body>
+
+
+
+
+</html>
